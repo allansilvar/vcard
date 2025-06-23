@@ -1,0 +1,20 @@
+BEGIN:VCARD
+VERSION:3.0
+N:de Tal;Fulano;;;
+FN:Fulano de Tal
+ORG:SENAI BAHIA
+TITLE:Meteorologia
+TEL;TYPE=WORK,VOICE:+5584555555555
+EMAIL;TYPE=WORK:a@a.com
+ADR;TYPE=WORK:;;Rua do Vento, nº 44;Palmeira dos Indios;AL;55555-55;Brazil
+URL:http://empresaX.com.br
+item1.URL:https://maps.app.goo.gl/HPQgq1cN5rQbhQcSA
+item2.X-ABLabel:Facebook
+item2.URL:http://face_Fulano
+item3.X-ABLabel:Instagram
+item3.URL:http://insta_Fulano
+item4.X-ABLabel:LinkedIn
+item4.URL:http://link_Fulano
+item5.X-ABLabel:YouTube
+item5.URL:http://you_Fulano
+END:VCARD
