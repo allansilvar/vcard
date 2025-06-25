@@ -1,50 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
-    <title>Allan Silva - Cartão Digital</title>
+    <title>Dr. Allan Silva - Cartão Digital</title>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: #f0f0f0;
+            background-color: #f0f0f0;
             text-align: center;
             padding: 30px;
         }
-
         .card {
-            /* background: white; */
-            background: rgba(255, 255, 255, 0.9); /* Semi-transparent white for readability */
-            background-image: url('IMG_BGROUND.png'); /* Path to your background image */
-            background-size: cover; /* Scale image to cover the card */
-            background-position: center; /* Center the image */
-            background-repeat: no-repeat; /* Prevent image repetition */
+            background: rgba(255, 255, 255, 0.9);
+            background-image: url('IMG_BGROUND.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             max-width: 400px;
             margin: auto;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-            position: relative; /* For potential overlay effects */
         }
-
         .photo {
             width: 150px;
             border-radius: 50%;
         }
-
         .name {
             font-size: 24px;
             font-weight: bold;
             margin: 10px 0;
         }
-
         .title {
             color: gray;
             font-size: 18px;
         }
-
         .btn {
             display: block;
             margin: 10px auto;
@@ -54,12 +46,11 @@
             background: #007BFF;
             color: white;
             border-radius: 5px;
+            transition: background 0.3s;
         }
-
         .btn:hover {
             background: #0056b3;
         }
-
         .btn ion-icon {
             margin-right: 8px;
             font-size: 18px;
@@ -67,34 +58,22 @@
         }
     </style>
 </head>
-
 <body>
     <div class="card">
-        <img src="IMG_ARS.jpg" alt="ASilva" class="photo">
+        <img src="IMG_ARS.jpg" alt="Foto de Allan Silva" class="photo">
         <div class="name">Dr. Allan Silva</div>
-        <div class="title">Meteorologista / Pesquisador </div>
-        <!-- <a class="btn" href="tel:+5584996505928">📞 Ligar</a>
-        <a class="btn" href="mailto:allan.silva@fieb.org.br">✉️ E-mail</a>
-        <a class="btn" href="https://wa.me/5584996505928" target="_blank">💬 WhatsApp</a>
-        <a class="btn" href="https://facebook.com/cimatecoficial" target="_blank">🌐 Facebook</a>
-        <a class="btn" href="https://instagram.com/cimatecoficial" target="_blank">📸 Instagram</a>
-        <a class="btn" href="https://x.com/senai_cimatec" target="_blank">🐤 X (Twitter)</a>
-        <a class="btn" href="https://www.linkedin.com/company/senaicimatec" target="_blank">🔗 LinkedIn</a>
-        <a class="btn" href="https://www.youtube.com/c/SENAICIMATECoficial" target="_blank">▶️ YouTube</a>
-        <a class="btn" href="https://maps.app.goo.gl/HPQgq1cN5rQbhQcSA" target="_blank">📍 Endereço</a>
-        <a class="btn" href="contato.vcf" download>📥 Baixar Contato </a> -->
-        <a class="btn" href="tel:+5584996505928"><ion-icon name="call"></ion-icon> Ligar</a>
-        <a class="btn" href="mailto:allan.silva@fieb.org.br"><ion-icon name="mail"></ion-icon> E-mail</a>
-        <a class="btn" href="https://wa.me/5584996505928" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon> WhatsApp</a>
-        <a class="btn" href="https://facebook.com/cimatecoficial" target="_blank"><ion-icon name="logo-facebook"></ion-icon> Facebook</a>
-        <a class="btn" href="https://instagram.com/cimatecoficial" target="_blank"><ion-icon name="logo-instagram"></ion-icon> Instagram</a>
-        <a class="btn" href="https://x.com/senai_cimatec" target="_blank"><ion-icon name="logo-twitter"></ion-icon> X (Twitter)</a>
-        <a class="btn" href="https://www.linkedin.com/company/senaicimatec" target="_blank"><ion-icon name="logo-linkedin"></ion-icon> LinkedIn</a>
-        <a class="btn" href="https://www.youtube.com/c/SENAICIMATECoficial" target="_blank"><ion-icon name="logo-youtube"></ion-icon> YouTube</a>
-        <a class="btn" href="https://maps.app.goo.gl/HPQgq1cN5rQbhQcSA" target="_blank"><ion-icon name="location"></ion-icon> Endereço</a>
-        <a class="btn" href="contato.vcf" download><ion-icon name="download"></ion-icon> Baixar Contato</a>
+        <div class="title">Meteorologista / Pesquisador</div>
 
+        <a class="btn" href="tel:+5584996505928"><ion-icon name="call"></ion-icon>Ligar</a>
+        <a class="btn" href="mailto:allan.silva@fieb.org.br"><ion-icon name="mail"></ion-icon>E-mail</a>
+        <a class="btn" href="https://wa.me/5584996505928" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon>WhatsApp</a>
+        <a class="btn" href="https://facebook.com/cimatecoficial" target="_blank"><ion-icon name="logo-facebook"></ion-icon>Facebook</a>
+        <a class="btn" href="https://instagram.com/cimatecoficial" target="_blank"><ion-icon name="logo-instagram"></ion-icon>Instagram</a>
+        <a class="btn" href="https://x.com/senai_cimatec" target="_blank"><ion-icon name="logo-twitter"></ion-icon>X (Twitter)</a>
+        <a class="btn" href="https://www.linkedin.com/company/senaicimatec" target="_blank"><ion-icon name="logo-linkedin"></ion-icon>LinkedIn</a>
+        <a class="btn" href="https://www.youtube.com/c/SENAICIMATECoficial" target="_blank"><ion-icon name="logo-youtube"></ion-icon>YouTube</a>
+        <a class="btn" href="https://maps.app.goo.gl/HPQgq1cN5rQbhQcSA" target="_blank"><ion-icon name="location"></ion-icon>Endereço</a>
+        <a class="btn" href="contato.vcf" download><ion-icon name="download"></ion-icon>Baixar Contato</a>
     </div>
 </body>
-
 </html>
